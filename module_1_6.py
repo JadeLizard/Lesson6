@@ -13,5 +13,6 @@ print(my_set)
 my_set.add(5)
 my_set.add((7,8,'лимон'))
 print(my_set)
-
-
+my_set.remove('привет')
+my_set.discard(1)
+print(my_set)
